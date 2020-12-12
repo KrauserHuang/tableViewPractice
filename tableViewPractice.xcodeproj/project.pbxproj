@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		4F161579258368DA00F51898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F161578258368DA00F51898 /* AppDelegate.swift */; };
 		4F16157B258368DA00F51898 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16157A258368DA00F51898 /* SceneDelegate.swift */; };
-		4F16157D258368DA00F51898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16157C258368DA00F51898 /* ViewController.swift */; };
 		4F161580258368DA00F51898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F16157E258368DA00F51898 /* Main.storyboard */; };
 		4F161582258368DF00F51898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F161581258368DF00F51898 /* Assets.xcassets */; };
 		4F161585258368DF00F51898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F161583258368DF00F51898 /* LaunchScreen.storyboard */; };
 		4F161590258368E000F51898 /* tableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16158F258368E000F51898 /* tableViewPracticeTests.swift */; };
 		4F16159B258368E000F51898 /* tableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16159A258368E000F51898 /* tableViewPracticeUITests.swift */; };
+		4F1615AC2583695E00F51898 /* CrossFitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1615AB2583695E00F51898 /* CrossFitTableViewController.swift */; };
+		4F1615B125836C8000F51898 /* CrossFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1615B025836C8000F51898 /* CrossFit.swift */; };
+		4F1615B625836EAF00F51898 /* CrossFitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1615B525836EAF00F51898 /* CrossFitTableViewCell.swift */; };
+		4F1615BF2584A6F200F51898 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1615BE2584A6F200F51898 /* DemoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		4F161575258368DA00F51898 /* tableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F161578258368DA00F51898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F16157A258368DA00F51898 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F16157C258368DA00F51898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F16157F258368DA00F51898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F161581258368DF00F51898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F161584258368DF00F51898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		4F161596258368E000F51898 /* tableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F16159A258368E000F51898 /* tableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		4F16159C258368E000F51898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1615AB2583695E00F51898 /* CrossFitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossFitTableViewController.swift; sourceTree = "<group>"; };
+		4F1615B025836C8000F51898 /* CrossFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossFit.swift; sourceTree = "<group>"; };
+		4F1615B525836EAF00F51898 /* CrossFitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossFitTableViewCell.swift; sourceTree = "<group>"; };
+		4F1615BE2584A6F200F51898 /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 			children = (
 				4F161578258368DA00F51898 /* AppDelegate.swift */,
 				4F16157A258368DA00F51898 /* SceneDelegate.swift */,
-				4F16157C258368DA00F51898 /* ViewController.swift */,
 				4F16157E258368DA00F51898 /* Main.storyboard */,
+				4F1615B025836C8000F51898 /* CrossFit.swift */,
+				4F1615B525836EAF00F51898 /* CrossFitTableViewCell.swift */,
+				4F1615AB2583695E00F51898 /* CrossFitTableViewController.swift */,
+				4F1615BE2584A6F200F51898 /* DemoTableViewController.swift */,
 				4F161581258368DF00F51898 /* Assets.xcassets */,
 				4F161583258368DF00F51898 /* LaunchScreen.storyboard */,
 				4F161586258368DF00F51898 /* Info.plist */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F16157D258368DA00F51898 /* ViewController.swift in Sources */,
+				4F1615AC2583695E00F51898 /* CrossFitTableViewController.swift in Sources */,
+				4F1615B625836EAF00F51898 /* CrossFitTableViewCell.swift in Sources */,
 				4F161579258368DA00F51898 /* AppDelegate.swift in Sources */,
 				4F16157B258368DA00F51898 /* SceneDelegate.swift in Sources */,
+				4F1615B125836C8000F51898 /* CrossFit.swift in Sources */,
+				4F1615BF2584A6F200F51898 /* DemoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
